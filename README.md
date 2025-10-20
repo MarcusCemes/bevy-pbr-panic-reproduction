@@ -1,5 +1,7 @@
 # Bevy 0.17.2 GLTF Material Replacement Panic Reproduction
 
+**Update: fixed by [#21410](https://github.com/bevyengine/bevy/pull/21410) in Bevy 0.18.**
+
 ## Bug Summary
 
 This reproduction demonstrates a panic that occurs in Bevy when a GLTF scene with dynamically replaced materials comes into view of a camera. The crash happens specifically when:
